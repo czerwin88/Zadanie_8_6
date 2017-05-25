@@ -4,11 +4,11 @@ var a = 4;
 
   if (value > 0) {
     console.log('Wynik jest dodatni')
-    alert('WYnik jest dodatni');
+    alert('Wynik jest dodatni');
   }  else if (value < 0) {
      console.log('Wynik jest ujemny')
      alert('Wynik jest ujemny');
-  }  else {
+  }  else if (value == 0) {
       console.log('Wynik to 0')
      alert('Wynik to 0');
   }
